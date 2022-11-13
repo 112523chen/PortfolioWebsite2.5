@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #4f5e57;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+nav{
+    background: #d2d7c6;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a:active{
+    color: #c4c4c4;
+}
+nav #logo{
+    width: 12%;
+    height: 100%;
+}
+.nav_structure{
+    display: flex;
+    list-style: none;
+}
+#breaker_start{
+    margin-left: auto;
+    padding: .5em 1em;
+}
+.breaker_add{
+    padding: .5em 1em;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+#locations{
+    display: flex;
+    text-align: center;
+    color: white;
+}
+#locations h2{
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+#locations h3{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+#locations p{
+    font-size: 1.5rem;
+}
+div#loc1{
+    width: 33%;
+}
+div#loc2{
+    width: 33%;
+}
+div#loc3{
+    width: 33%;
+}
+div#loc1 img{
+    width: 60%;
+    height: 30%;
+    border: 0.5rem solid white;
+    box-shadow: 0.6rem 0.3rem 0.3rem grey;
+}
+div#loc2 img{
+    width: 60%;
+    height: 30%;
+    border: 0.5rem solid white;
+    box-shadow: 0.6rem 0.3rem 0.3rem grey;
+}
+div#loc3 img{
+    width: 60%;
+    height: 30%;
+    border: 0.5rem solid white;
+    box-shadow: 0.6rem 0.3rem 0.3rem grey;
+}
+#locations .hours{
+    margin-left: auto;
+    margin-right: auto;
+}
+#locations table.hours {
+    width: 20rem;
+}
+#locations table.hours tbody tr td{
+    padding: 0.3rem 0;
+    width: 50%;
+}
+main{
+    min-height: 100vh;
+}
+footer{
+    background-color:#d2d7c6;
+    padding: 2% 0;
+}
+footer p{
+    text-align: center;
+}

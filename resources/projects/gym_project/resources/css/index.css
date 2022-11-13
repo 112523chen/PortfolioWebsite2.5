@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #fffefc;
+}
+body.dark-mode{
+    background-color: #191919;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+nav{
+    background-color: #0466c8;
+    height: 4.5rem;
+}
+nav.dark-mode{
+    background-color: #011121;
+    height: 4.5rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li#home{
+    margin-top: 0.5rem;
+    margin-left: 00.5rem;
+    margin-right: auto;
+}
+nav ul li#home a img{
+    height: 50%; 
+    width: 40%;
+    border-radius: 25%;
+    border: solid lightgray 2px;
+
+}
+nav ul li.pages{
+    margin: 1.3rem 1.5rem;
+}
+nav ul li#end{
+    margin-right: 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+nav ul li a:hover{
+    color: #e6e6e6;
+}
+nav ul li a:active{
+    color: #b3b3b3;
+}
+main{
+    text-align: center;
+}
+main.dark-mode{
+    text-align: center;
+    color: #FFFFFF;
+}
+main h1{
+    padding: 10% 0 5% 0;
+    font-size: 5rem;
+}
+main h3{
+    font-size: 2rem;
+    padding-bottom: 5rem;
+}
+main div#btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    background-color: #0353a4;
+    height: 2rem;
+    width: 10rem;
+    margin: 0 auto;
+    padding: 1%;
+    border-radius: 5%;
+}
+main div#btn a:hover{
+    color: #e6e6e6;
+    background-color: #81a9d2;
+}
+main div#btn a:active{
+    color: #b3b3b3;
+}
+main div#btn a.dark-mode{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    background-color: #022a52;
+    height: 2rem;
+    width: 10rem;
+    margin: 0 auto;
+    padding: 1%;
+    border-radius: 5%;
+}
+main div#btn a:hover.dark-mode{
+    color: #e6e6e6;
+    background-color: #81a9d2;
+}
+main div#btn a:active.dark-mode{
+    color: #b3b3b3;
+}
+footer{
+    background-color: #0466c8;
+    height: 3rem;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer.dark-mode{
+    background-color: #011121;
+    color: #FFFFFF;
+    height: 3rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
+footer ul li#copyright{
+    margin: 0.6rem auto 0 46%;
+    font-size: 1.5rem;
+}
+footer ul li#switch{
+    margin: 0.6rem 2% 0 auto;
+    color: #FFFFFF;
+}

@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+body.dark-mode{
+    background-color: #191919;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #fffefc;
+}
+body.dark-mode{
+    background-color: #191919;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+nav{
+    background-color: #0466c8;
+    height: 4.5rem;
+}
+nav.dark-mode{
+    background-color: #011121;
+    height: 4.5rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li#home{
+    margin-top: 0.5rem;
+    margin-left: 00.5rem;
+    margin-right: auto;
+}
+nav ul li#home a img{
+    height: 50%; 
+    width: 40%;
+    border-radius: 25%;
+    border: solid lightgray 2px;
+
+}
+nav ul li.pages{
+    margin: 1.3rem 1.5rem;
+}
+nav ul li#end{
+    margin-right: 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+nav ul li a:hover{
+    color: #e6e6e6;
+}
+nav ul li a:active{
+    color: #b3b3b3;
+}
+main{
+    min-height: 100vh;
+}
+main div#subject{
+    display: flex;
+    margin: 3% auto 0 auto;
+}
+main h1#goal{
+    margin-top: 2rem;
+    margin-left: 17.8%;
+}
+main h1#goal.dark-mode{
+    margin-top: 2rem;
+    margin-left: 17.8%;
+    color: #FFFFFF;
+}
+main div#subject div.option{
+    background-color: #e6e6e6;
+    border: 1px solid lightgrey;
+    width: 20%;
+    margin: 0 1%;
+}
+main div#subject div.option#left{
+    margin-left: auto;
+}
+main div#subject div.option#right{
+    margin-right: auto;
+}
+main div#subject div.option div.head{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+main div#subject div.option div.main{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+main div#subject div.option div.main div.action{
+    margin-top: 1rem;
+}
+main div#subject div.option div.main div.action a{
+    padding: 0rem 20%;
+    color: white; 
+    background: silver; 
+    border: 2px solid silver;
+    border-radius: 5%;     
+    text-decoration: none;      
+}
+main div#subject div.option div.features{
+    margin-top: 1rem;
+    margin-left: 2.1rem;
+}
+main div#subject div.option div.features li{
+    padding: 0.25rem;
+}
+main div#compare{
+    margin: 2rem 0 3rem 0;
+    margin-left: 17.8%;
+    margin-right: 17.8%;
+}
+main div#compare h1{
+    margin-bottom: 3%;
+}
+main div#compare h1.dark-mode{
+    margin-bottom: 3%;
+    color: #FFFFFF;
+}
+main div#compare table{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+main div#compare table.dark-mode{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    color: #FFFFFF;
+}
+main div#compare table tbody tr, main div#compare table thead tr {
+    border-bottom: 1px solid lightgray;
+}
+main div#compare table th{
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    text-align: left;
+}
+main div#compare table th.dark-mode{
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+main div#compare table tbody td{
+    padding: 1rem;
+    text-align: left;
+}
+main div#compare table tbody td.dark-mode{
+    padding: 1rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+main div#compare table tfoot td{
+    padding: 1rem;
+}
+main div#compare table tfoot td.dark-mode{
+    padding: 1rem;
+    color: #FFFFFF;
+}
+main div#compare table tfoot td div.action{
+    margin: 1rem 0;
+}
+main div#compare table tfoot td div.action a{
+    padding: 0rem 15%;
+    color: white; 
+    background: silver; 
+    border: 2px solid silver;
+    border-radius: 5%;     
+    text-decoration: none;  
+}
+
+footer{
+    background-color: #0466c8;
+    height: 3rem;
+    color: #FFFFFF;
+    width: 100%;
+}
+footer.dark-mode{
+    background-color: #011121;
+    color: #FFFFFF;
+    height: 3rem;
+    width: 100%;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
+footer ul li#copyright{
+    margin: 0.6rem auto 0 46%;
+    font-size: 1.5rem;
+}
+footer ul li#switch{
+    margin: 0.6rem 2% 0 auto;
+    color: #FFFFFF;
+}

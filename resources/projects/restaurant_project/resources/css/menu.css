@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #4f5e57;
+}
+nav{
+    background: #d2d7c6;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a:active{
+    color: #c4c4c4;
+}
+nav #logo{
+    width: 12%;
+    height: 100%;
+}
+.nav_structure{
+    display: flex;
+    list-style: none;
+}
+#breaker_start{
+    margin-left: auto;
+    padding: .5em 1em;
+}
+.breaker_add{
+    padding: .5em 1em;
+}
+main{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+#hea1 {
+    margin: 1rem 0;
+    width: 25%;
+}
+hr {
+    margin: 1rem 0;;
+    width: 45%;
+}
+main h1{
+    font-size: 2rem;
+    color: white;
+}
+main h2{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+main h3{
+    font-size: 1.7rem;
+    color: white;
+}
+main p#des{
+    width: 50%;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+main ol{
+    margin-left: 2rem;
+}
+main ol li{
+    margin: 0.75rem 0;
+    color: white;
+    font-size: 1.5rem;
+}
+#Orders{
+    display: flex;
+    width: 100%;
+}
+div#piece{
+    width: 30%;
+}
+hr#piece{
+    width: 90%;
+}
+table#piece {
+    width: 100%;
+    color: white;
+}
+table#piece thead tr{
+    text-align: left;
+}
+table#piece thead tr th{
+    font-size: 1.5rem;
+}
+
+table#piece tbody tr td{
+    padding: 1rem 0;
+}
+#drinks{
+    width: 30%;
+}
+div#drinks{
+    color: white;
+}
+hr#drinks{
+    width: 90%;
+}
+table#drinks{
+    width: 100%;
+}
+table#drinks thead tr{
+    text-align: left;
+}
+table#drinks thead tr th{
+    font-size: 1.5rem;
+}
+table#drinks tbody tr td{
+    padding: 1rem 0;
+}
+main{
+    min-height: 100vh;
+    margin-bottom: 5%;
+}
+footer{
+    background-color:#d2d7c6;
+    padding: 2% 0;
+}
+footer p{
+    text-align: center;
+}
+
+
+

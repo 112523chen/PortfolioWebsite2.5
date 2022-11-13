@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Fitness - Membership</title>
+    <link rel="stylesheet" href="./resources/css/price.css">
+</head>
+<body>
+    <nav>
+        <ul id="nav-structure">
+            <li id="home"><a href="./index.html"><img src="./resources/images/Core3.png" alt="logo"></a></li>
+            <li class="pages"><a href="./about.html">About Us</a></li>
+            <li class="pages"><a href="./contact.html">Contact Us</a></li>
+            <li class="pages"><a href="./price.html">Membership</a></li>
+            <li class="pages" id="end"><a href="./store.html">Store</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 id="goal">We Build Strength in Core</h1>
+        <div id="subject">
+            <div class="option" id="left">
+                <div class="head">
+                    <h1 id="silver">Basic</h1>
+                </div>
+                <div class="main">
+                    <h1 class="price">$10</h1>
+                    <h4 class="clause">per month billed annually</h4>
+                    <div class="action">
+                        <a href="./signup.html?membership=basic" class="btn">Sign Up Now</a>
+                    </div>
+                </div>
+                <div class="features">
+                    <ul>
+                        <li>Single gym access</li>
+                        <li>Touchless check-in with NFC tag</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="option">
+                <div class="head">
+                    <h1 id="green">Pro</h1>
+                </div>
+                <div class="main">
+                    <h1 class="price">$25</h1>
+                    <h4 class="clause">per month billed annually</h4>
+                    <div class="action">
+                        <a href="./signup.html?membership=pro" class="btn">Sign Up Now</a>
+                    </div>
+                </div>
+                <div class="features">
+                    <ul>
+                        <li>Includes everything in Basic tier</li>
+                        <li>Free Personal Training start-up session</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="option" id="right">
+                <div class="head">
+                    <h1 id="red">Premium</h1>
+                </div>
+                <div class="main">
+                    <h1 class="price">$40</h1>
+                    <h4 class="clause">per month billed annually</h4>
+                    <div class="action">
+                        <a href="./signup.html?membership=premium" class="btn">Sign Up Now</a>
+                    </div>
+                </div>
+                <div class="features">
+                    <ul>
+                        <li>Includes everything in Pro tier</li>
+                        <li>Bring a guest everytime</li>
+                        <li>Multiple gym access</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="compare">
+            <h1>Compare Plans & Features</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Features</th>
+                        <th>Basic</th>
+                        <th>Pro</th>
+                        <th>Premium</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Single gym access</td>
+                        <td class="info">Yes</td>
+                        <td class="info">Yes</td>
+                        <td class="info">Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Touchless check-in with NFC tag</td>
+                        <td class="info">Yes</td>
+                        <td class="info">Yes</td>
+                        <td class="info">Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Free Personal Training start-up session</td>
+                        <td class="info">-</td>
+                        <td class="info">Yes</td>
+                        <td class="info">Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Bring a guest everytime</td>
+                        <td class="info"> - </td>
+                        <td class="info"> - </td>
+                        <td class="info">Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Multiple gym access</td>
+                        <td class="info">-</td>
+                        <td class="info">-</td>
+                        <td class="info">Yes</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td></td>
+                    <td>
+                        <p class="title" id="basic">Basic</p>
+                        <p class="price">$10</p>
+                        <p class="small">per month billed annually</p>
+                        <div class="action">
+                            <a href="./signup.html?membership=basic" class="btn">Sign Up Now</a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="title" id="pro">Pro</p>
+                        <p class="price">$25</p>
+                        <p class="small">per month billed annually</p>
+                        <div class="action">
+                            <a href="./signup.html?membership=pro" class="btn">Sign Up Now</a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="title" id="premium">Premium</p>
+                        <p class="price">$40</p>
+                        <p class="small">per month billed annually</p>
+                        <div class="action">
+                            <a href="./signup.html?membership=premium" class="btn">Sign Up Now</a>
+                        </div>
+                    </td>
+                </tfoot>
+            </table>
+        </div>
+        <div id="sell"></div>
+    </main>
+    <footer>
+        <ul id="foot">
+            <li id="copyright">Core Fitness &copy;</li>
+            <li id="switch"><svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M19.524 14.721h.008c.644 0 1.275-.059 1.886-.172l-.063.01c-1.146 4.122-4.866 7.098-9.281 7.098h-.058h.003c-5.343-.006-9.673-4.336-9.678-9.679v-.001A9.76 9.76 0 0 1 9.37 2.665l.069-.017a10.013 10.013 0 0 0-.162 1.819v.007c.005 5.658 4.59 10.243 10.247 10.248h.001zM12.006.47a1.162 1.162 0 0 0-1.043-.465h.005C4.813.596.034 5.724 0 11.976v.003C.008 18.614 5.385 23.991 12.019 24h.061c6.243 0 11.367-4.786 11.905-10.889l.003-.045a1.168 1.168 0 0 0-.423-1.009l-.002-.002a1.164 1.164 0 0 0-1.084-.213l.008-.002l-.524.156a7.735 7.735 0 0 1-2.435.385h-.007a7.912 7.912 0 0 1-7.903-7.903V4.46c0-1.03.198-2.014.558-2.915l-.019.053a1.169 1.169 0 0 0-.155-1.134l.002.003z"/></svg></li>
+        </ul>
+    </footer>
+    <script src="./resources/js/switch_price.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #fffefc;
+}
+body.dark-mode{
+    background-color: #191919;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+nav{
+    background-color: #0466c8;
+    height: 4.5rem;
+}
+nav.dark-mode{
+    background-color: #011121;
+    height: 4.5rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li#home{
+    margin-top: 0.5rem;
+    margin-left: 00.5rem;
+    margin-right: auto;
+}
+nav ul li#home a img{
+    height: 50%; 
+    width: 40%;
+    border-radius: 25%;
+    border: solid lightgray 2px;
+}
+nav ul li.pages{
+    margin: 1.3rem 1.5rem;
+}
+nav ul li#end{
+    margin-right: 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+nav ul li a:hover{
+    color: #e6e6e6;
+}
+nav ul li a:active{
+    color: #b3b3b3;
+}
+main{
+    margin: 2rem 25%;
+    min-height: 81.7vh;
+}
+main.dark-mode{
+    margin: 2rem 25%;
+    min-height: 81.7vh;
+    color: white;
+}
+main div#brand{
+    margin: 1rem 0;
+}
+main div#brand h2{
+    margin-bottom: 0.5rem;
+}
+main div#brand p{
+
+}
+main div#FAQ{
+    margin: 1rem 0 3rem 0;
+}
+main div#FAQ details{
+    margin: 1rem 0;
+} 
+main div#FAQ details iframe{
+    margin: 0.5rem 8%;
+}
+main div#FAQ details ul{
+    margin-left: 1rem;
+}
+main div#FAQ details li{
+    list-style: "- ";
+    margin: 0.2rem;
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+main div#owner{
+}
+main div#owner h2{
+    margin-bottom: 1rem;
+}
+main div#owner h3{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+main div#owner a{
+    margin-left: 0.5rem;
+}
+main div#owner ol{
+    margin-left: 1.2rem;
+}
+main div#owner ol li{
+    margin: 0.5rem 0;
+}
+footer{
+    background-color: #0466c8;
+    height: 3rem;
+    color: #FFFFFF;
+    width: 100%;
+}
+footer.dark-mode{
+    background-color: #011121;
+    color: #FFFFFF;
+    height: 3rem;
+    width: 100%;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
+footer ul li#copyright{
+    margin: 0.6rem auto 0 46%;
+    font-size: 1.5rem;
+}
+footer ul li#switch{
+    margin: 0.6rem 2% 0 auto;
+    color: #FFFFFF;
+}

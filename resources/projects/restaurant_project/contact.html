@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Tarda Mare</title>
+    <link rel="stylesheet" href="./resources/css/contact.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav_structure">
+            <li><img id="logo" src="./resources/images/logo.png" alt="logo"></li>
+            <li id="breaker_start"><a href="./index.html">Home</a></li>
+            <li class="breaker_add"><a href="./about.html">About</a></li>
+            <li class="breaker_add"><a href="./gallery.html">Gallery</a></li>
+            <li class="breaker_add"><a href="./menu.html">Menu</a></li>
+            <li class="breaker_add"><a href="./locations.html">Locations</a></li>
+            <li class="breaker_add"><a href="./contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Representative</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Upper West Side</td>
+                    <td>Steven</td>
+                    <td>646-545-1234</td>
+                    <td><a href="mailto:TardaMare@gamil.com">TaraMare@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <td>Midtown</td>
+                    <td>James</td>
+                    <td>646-123-5678</td>
+                    <td><a href="mailto:TardaMare@gamil.com">TaraMare@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <td>Tribeca</td>
+                    <td>Will</td>
+                    <td>646-454-4321</td>
+                    <td><a href="mailto:TardaMare@gamil.com">TaraMare@gmail.com</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Want to Share Your Opinions about Tarde Mare</h3>
+        <br>
+        <form action="http://www.websitedevelopmentbook.com/FormEcho.php" method="post">
+            <div class="action">
+                <label for="name">Enter your name: &nbsp</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <br>
+            <div class="action">
+                <p>What was the highlight for your experience at the Tarde Mare</p>
+                <select name="highlight" id="highlight" required>
+                    <Option></Option>
+                    <Option>Food</Option>
+                    <Option>Atmosphere</Option>
+                    <Option>Staff</Option>
+                    <Option>Drinks</Option>
+                    <Option>Nothing</Option>
+                </select>
+            </div>
+            <br>
+            <div class="action">
+                <p>What menu item(s) would your recommend?</p>
+                <label for="the experience">The Experience</label>
+                <input type="checkbox" name="item" id="the experience"value="The Experience">
+                <label for="sashimi">Sashimi</label>
+                <input type="checkbox" name="item" id="Sashimi" value="Sashimi">
+                <label for="nigiri">Nigiri</label>
+                <input type="checkbox" name="item" id="nigiri" value="Nigiri">
+            </div>
+            <br>
+            <div class="action">
+                <p>Would you recommend Tarda Mare to a friend or family member?</p>
+                <label for="Yes">Yes</label>
+                <input type="radio" name="recommend" value="Yes">
+                <label for="No">No</label>
+                <input type="radio" name="recommend" id="No">
+            </div>
+            <br>
+            <div class="action">
+                <label for="paragraph">Enter feedback below:</label>
+                <br>
+                <textarea name="paragraph" id="feedback" cols="30" rows="10" required></textarea>
+            </div>
+            <div class="action">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2022 Tarda Mare LLC</p>
+    </footer>
+</body>
+</html>

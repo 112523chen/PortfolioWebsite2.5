@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #fffefc;
+}
+body.dark-mode{
+    background-color: #191919;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+nav{
+    background-color: #0466c8;
+    height: 4.5rem;
+}
+nav.dark-mode{
+    background-color: #011121;
+    height: 4.5rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li#home{
+    margin-top: 0.5rem;
+    margin-left: 00.5rem;
+    margin-right: auto;
+}
+nav ul li#home a img{
+    height: 50%; 
+    width: 40%;
+    border-radius: 25%;
+    border: solid lightgray 2px;
+
+}
+nav ul li.pages{
+    margin: 1.3rem 1.5rem;
+}
+nav ul li#end{
+    margin-right: 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+nav ul li a:hover{
+    color: #e6e6e6;
+}
+nav ul li a:active{
+    color: #b3b3b3;
+}
+main{
+    
+}
+main div#subject{
+    width: 60%;
+    height: 50%;
+    margin: 5rem 20% 1rem 20%;
+    display: flex;
+    background-color: #e0e0e0;
+}
+main div#subject.dark-mode{
+    background-color: #545454;
+    width: 60%;
+    height: 50%;
+    margin: 5rem 20% 1rem 20%;
+    display: flex;
+    color: #f6f6f6;
+}
+main div#subject div#subject1{
+    width: 100%;
+}
+main div#subject div#subject1 h1{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+main div#subject div#subject1 h2{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
+main div#subject div#subject1 h3{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+main div#subject div#subject1 h4{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+main div#subject div#subject1 a{
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+    color: #3f3f3f;
+}
+main div#subject div#subject1 a:hover{
+    color: #a9a9a9;
+}
+main div#subject div#subject1 a:active{
+    color: #3f3f3f;
+}
+main div#subject div#subject1 a.dark-mode{
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+    color: #f6f6f6;
+}
+main div#subject div#subject1 a:hover{
+    color: #a9a9a9;
+}
+main div#subject div#subject1 a:active{
+    color: #3f3f3f;
+}
+main div#subject div#subject1 p{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+main div#subject div#subject2{
+    width: 100%;
+}
+main div#subject div#subject2 h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+main div#subject div#subject2 form label{
+    margin-bottom: 1rem;
+}
+textarea {
+    resize: none;
+}
+main div#subject div#subject2 form p{
+    margin: 1rem 0 0.5rem 0;
+    width: 55%;
+}
+main div#subject div#subject2 form label.likely{
+    margin-right: 1rem;
+}
+main div#subject div#subject2 form input[type="submit"]{
+    margin: 1rem 0;
+}
+
+footer{
+    background-color: #0466c8;
+    height: 3rem;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer.dark-mode{
+    background-color: #011121;
+    color: #FFFFFF;
+    height: 3rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
+footer ul li#copyright{
+    margin: 0.6rem auto 0 46%;
+    font-size: 1.5rem;
+}
+footer ul li#switch{
+    margin: 0.6rem 2% 0 auto;
+    color: #FFFFFF;
+}

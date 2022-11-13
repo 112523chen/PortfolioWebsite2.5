@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Fitness - Contact</title>
+    <link rel="stylesheet" href="./resources/css/contact.css">
+</head>
+<body>
+    <nav>
+        <ul id="nav-structure">
+            <li id="home"><a href="./index.html"><img src="./resources/images/Core3.png" alt="logo"></a></li>
+            <li class="pages"><a href="./about.html">About Us</a></li>
+            <li class="pages"><a href="./contact.html">Contact Us</a></li>
+            <li class="pages"><a href="./price.html">Membership</a></li>
+            <li class="pages" id="end"><a href="./store.html">Store</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="subject">
+            <div id="subject1">
+                <h1>How to Contact Us</h1>
+                <h2>Hours</h2>
+                <h3>Email</h3>
+                <h4>1-2 Business days, Monday - Friday 6am - 6pm</h4>
+                <a id="email" href="mailto:alex.chen2@mail.citytech.cuny.edu">WendyJaviar@CoreFitness.com</a>
+                <h3>Phone</h3>
+                <h4>Monday - Friday 6am - 6pm</h4>
+                <p>Phone Number: 646-693-0913</p>
+                <h3>Walk in</h3>
+                <p>Location: 1701 River View Rd Troy, New York, 12183</p>
+                <h4>Monday - Friday 6am - 6pm</h4>
+                <h4>Saturday & Sunday 8am - 5pm</h4>
+
+            </div>
+            <div id="subject2">
+                <h1>Send Feedback</h1>
+                <form action="http://www.WebsiteDevelopmentBook.com/FormEcho.php" method="post">
+                    <div class="parts">
+                        <label id="focus" for="focus">Subject:  </label>
+                        <select name="Focus" id="focus" required>
+                            <option value="Gym Experience">Gym Experience</option>
+                            <option value="Customer Service">Customer Service</option>
+                            <option value="Website Experience">Website Experience</option>
+                            <option value="Other">Other</option>
+                            <!-- TODO: Add aditional text option for other  --> 
+                        </select>
+                    </div>
+                    <br>
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Enter you feedback here..." required></textarea>
+                    <br>
+                    <p>How likely are you to recommend Core Fitness to others? </p>
+                    <input type="checkbox"  name="likely_one" id="like1">
+                    <label class="likely" for="like1">1</label>
+                    <input type="checkbox" name="likely_two" id="like2">
+                    <label class="likely" for="like2">2</label>
+                    <input type="checkbox" name="likely_three" id="like3">
+                    <label class="likely" for="like3">3</label>
+                    <input type="checkbox" name="likely_four" id="like4">
+                    <label class="likely" for="like4">4</label>
+                    <input type="checkbox" name="likely_five" id="like5">
+                    <label class="likely" for="like5">5</label>
+                    <br>
+                    <input type="submit" value="Send feedback">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul id="foot">
+            <li id="copyright">Core Fitness &copy;</li>
+            <li id="switch"><svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M19.524 14.721h.008c.644 0 1.275-.059 1.886-.172l-.063.01c-1.146 4.122-4.866 7.098-9.281 7.098h-.058h.003c-5.343-.006-9.673-4.336-9.678-9.679v-.001A9.76 9.76 0 0 1 9.37 2.665l.069-.017a10.013 10.013 0 0 0-.162 1.819v.007c.005 5.658 4.59 10.243 10.247 10.248h.001zM12.006.47a1.162 1.162 0 0 0-1.043-.465h.005C4.813.596.034 5.724 0 11.976v.003C.008 18.614 5.385 23.991 12.019 24h.061c6.243 0 11.367-4.786 11.905-10.889l.003-.045a1.168 1.168 0 0 0-.423-1.009l-.002-.002a1.164 1.164 0 0 0-1.084-.213l.008-.002l-.524.156a7.735 7.735 0 0 1-2.435.385h-.007a7.912 7.912 0 0 1-7.903-7.903V4.46c0-1.03.198-2.014.558-2.915l-.019.053a1.169 1.169 0 0 0-.155-1.134l.002.003z"/></svg></li>
+        </ul>
+    </footer>
+    <script src="./resources/js/switch_contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./resources/images/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <title>Alex Chen</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+
+<body>
+    <div class="mode">
+        <button id="dark_button" class="btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                    d="M19.524 14.721h.008c.644 0 1.275-.059 1.886-.172l-.063.01c-1.146 4.122-4.866 7.098-9.281 7.098h-.058h.003c-5.343-.006-9.673-4.336-9.678-9.679v-.001A9.76 9.76 0 0 1 9.37 2.665l.069-.017a10.013 10.013 0 0 0-.162 1.819v.007c.005 5.658 4.59 10.243 10.247 10.248h.001zM12.006.47a1.162 1.162 0 0 0-1.043-.465h.005C4.813.596.034 5.724 0 11.976v.003C.008 18.614 5.385 23.991 12.019 24h.061c6.243 0 11.367-4.786 11.905-10.889l.003-.045a1.168 1.168 0 0 0-.423-1.009l-.002-.002a1.164 1.164 0 0 0-1.084-.213l.008-.002l-.524.156a7.735 7.735 0 0 1-2.435.385h-.007a7.912 7.912 0 0 1-7.903-7.903V4.46c0-1.03.198-2.014.558-2.915l-.019.053a1.169 1.169 0 0 0-.155-1.134l.002.003z">
+                </path>
+            </svg>
+        </button>
+        <button id="light_button" class="btn" hidden>
+            <svg width="24" height="24" style="color: #ffffff;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+                    <path d="M12 3V2m0 20v-1m9-9h1M2 12h1m15.5-6.5L20 4M4 20l1.5-1.5M4 4l1.5 1.5m13 13L20 20" />
+                    <circle cx="12" cy="12" r="4" />
+                </g>
+            </svg>
+        </button>
+    </div>
+    <div id="up" class="up" title="Go Top of Page" hidden>
+        <button id="back-to-top_btn">
+            <svg width="32" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                    d="M16.21 16H7.79a1.76 1.76 0 0 1-1.59-1a2.1 2.1 0 0 1 .26-2.21l4.21-5.1a1.76 1.76 0 0 1 2.66 0l4.21 5.1A2.1 2.1 0 0 1 17.8 15a1.76 1.76 0 0 1-1.59 1Z" />
+            </svg>
+        </button>
+    </div>
+    <div id="main">
+        <div id="display">
+            <h1>Alex Chen</h1>
+            <div id="headline">
+                <p id="typewriter-container"><span id='typewriter'></span><span id="cursor">|</span></p>
+                <p hidden id="mobile-head">Aspiring Data Scientist | Data Science Fellow @ CUNY Tech Prep</p>
+            </div>
+            <div id="story">
+                <p>I am a data science student studying at <span class="highlight">New York City College of Technology</span> while also studying <span class="highlight">web development</span> in my free time who is eager to tell stories from data. </p>
+            </div>
+        </div>
+        <div id="about">
+            <div class="headings">
+                <h2>About Me</h2>
+                <hr>
+            </div>
+            <div id="bio">
+                <p>I am a third year student at New York City College of Technology, CUNY and majoring in data science.
+                    I am part of the 8th cohort of CUNY Tech Prep. I am passionate about learning more about this world
+                    through different lenses especially through data.</p>
+                <p class="highlight">My goal is to discover, analyze and harness — the power of 'data'. Data is undoubtedly the new gold
+                    of the era we live in.</p>
+                <p>When I am not in front of a screen, I’m most likely enjoying the local food and wonderful weather
+                    while reading or listening to music.</p>
+            </div>
+        </div>
+        <div id="coursework">
+            <div class="headings">
+                <h2>Relevant Coursework</h2>
+                <hr>
+            </div>
+            <div id="course">
+                <div id="cs-course">
+                    <h3 class="course-head">Computer Science</h3>
+                    <p class="class">Data Structures</p>
+                    <p class="class">Object Oriented Programming in Java</p>
+                    <p class="class">Web Programming I</p>
+                    <p class="class">Programming Fundamentals</p>
+                    <p class="class">Discrete Structures and Algorithms I</p>
+                </div>
+                <div id="ds-course">
+                    <h3 class="course-head">Data Science</h3>
+                    <p class="class">Introduction to Artificial Intelligence</p>
+                    <p class="class">Machine Learning for Physics and Astronomy</p>
+                    <p class="class">Information and Data Management II</p>
+                    <p class="class">Introduction to Data Science</p>
+                    <p class="class">Database Systems Fundamentals</p>
+                    <p class="class">Introduction to Linear Algebra</p>
+                    <p class="class">Probability and Mathematical Statistics I</p>
+                </div>
+            </div>
+        </div>
+        <div id="skills">
+            <div class="headings">
+                <h2>Skills</h2>
+                <hr>
+            </div>
+            <div id="frame">
+                <div class="skillset" id="programming">
+                    <p><span class="highlight">Languages:</span> Python, SQL, HTML, CSS, JavaScript, TypeScript, Java, Sass, Bash, R</p>
+                </div>
+                <div class="skillset" id="libary">
+                    <p id="libary"><span class="highlight">Libraries:</span> Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, NLTK, Redux, SciPy</p>
+                </div>
+                <div class="skillset" id="framework">
+                    <p><span class="highlight">Frameworks:</span> Streamlit, React, Bootstrap, Node, Mocha, Jest, Express</p>
+                </div>
+                <div class="skillset" id="tools">
+                    <p><span class="highlight">Tools:</span> Git, GitHub, Jupyter Notebooks, Excel, Data Studio, Tableau, Figma</p>
+                </div>
+            </div>
+        </div>
+        <div id="projects">
+            <div class="headings">
+                <h2>Projects</h2>
+                <hr>
+            </div>
+            <div id="frame">
+                <div class="project" id="emotionDectionApp">
+                    <div class="project_title">
+                        <h3>Emotion Detection Web App</h3>
+                    </div>
+                    <div class="project_details">
+                        <p>Constructed a web application that predicts emotions within a piece of text using a natural language processing with an accuracy of 69%</p>
+                    </div>
+                    <div class="project_skills">
+                        <ul>
+                            <li class="project_skill">Python</li>
+                            <li class="project_skill">Numpy</li>
+                            <li class="project_skill">Matplotlib</li>
+                            <li class="project_skill">Scikit-Learn</li>
+                            <li class="project_skill">Streamlit</li>
+                        </ul>
+                    </div>
+                    <div class="website project_link">
+                        <a title="Project Github Repo" target="_blank"
+                            href="https://github.com/112523chen/CTP-Fall-2022-Project">Github Page</a>
+                    </div>
+                </div>
+                <div class="project" id="imageClassificationApp">
+                    <div class="project_title">
+                        <h3>Image Classification App</h3>
+                    </div>
+                    <div class="project_details">
+                        <p>Developed a web application that classifies images of natural scenes around the world using Random Forest Classifier with a with an accuracy of 53%</p>
+                    </div>
+                    <div class="project_skills">
+                        <ul>
+                            <li class="project_skill">Python</li>
+                            <li class="project_skill">Pandas</li>
+                            <li class="project_skill">Scikit-learn</li>
+                            <li class="project_skill">Streamlit</li>
+                        </ul>
+                    </div>
+                    <div class="website project_link">
+                        <a title="Project Github Repo" target="_blank"
+                            href="https://github.com/112523chen/Image-Classification-App">GitHub Page</a>
+                    </div>
+                </div>
+                <div class="project" id="redditClientApp">
+                    <div class="project_title">
+                        <h3>Reddit Client App</h3>
+                    </div>
+                    <div class="project_details">
+                        <p>Created an interactive Reddit client application using HTML, CSS, JavaScript, and React.js to deepen understanding of React and the virtual DOM </p>
+                    </div>
+                    <div class="project_skills">
+                        <ul>
+                            <li class="project_skill">HTML</li>
+                            <li class="project_skill">CSS</li>
+                            <li class="project_skill">JavaScript</li>
+                            <li class="project_skill">React</li>
+                        </ul>
+                    </div>
+                    <div class="website project_link">
+                        <a title="Reddit Client App" target="_blank"
+                            href="https://112523chen.netlify.app/redditCloneProject">Web App</a>
+                    </div>
+                </div>
+                <div class="project" id="nationalParks">
+                    <div class="project_title">
+                        <h3>Biodiversity in National Parks Analysis</h3>
+                    </div>
+                    <div class="project_details">
+                        <p>Analyzed 2 datasets about species present across 4 national parks and find out more about the
+                            endangered species within the parks</p>
+                    </div>
+                    <div class="project_skills">
+                        <ul>
+                            <li class="project_skill">Pandas</li>
+                            <li class="project_skill">Numpy</li>
+                            <li class="project_skill">Scipy</li>
+                            <li class="project_skill">Seaborn</li>
+                            <li class="project_skill">Matplotlib</li>
+                        </ul>
+                    </div>
+                    <div class="github project_link">
+                        <a title="Repo Link" target="_blank"
+                            href="https://github.com/112523chen/Biodiversity-in-National-Parks-Analysis">GitHub Page</a>
+                    </div>
+                </div>
+                <div class="project" id="manhattanSchoolAnalysis">
+                    <div class="project_title">
+                        <h3>Manhattan School Districts Standardized Testing Analysis</h3>
+                    </div>
+                    <div class="project_details">
+                        <p>Analyzed 2 datasets from NYC Open Data about the scoring of the math and english standardized
+                            test and create tools to summarize the data</p>
+                    </div>
+                    <div class="project_skills">
+                        <ul>
+                            <li class="project_skill">Python</li>
+                            <li class="project_skill">Pandas</li>
+                            <li class="project_skill">Seaborn</li>
+                            <li class="project_skill">Matplotlib</li>
+                            <li class="project_skill">Sodapy</li>
+                        </ul>
+                    </div>
+                    <div class="github project_link">
+                        <a title="Repo Link" target="_blank"
+                            href="https://github.com/112523chen/School-Districts-Standardized-Test-Analysis">GitHub
+                            Page</a>
+                    </div>
+                </div>
+                <div class="project" id="gymWebsite">
+                    <div class="project_title">
+                        <h3>Gym Website</h3>
+                    </div>
+                    <div class="project_details">
+                        <p>Created an interactive website for a gym brand to illustrate and deepen HTML, CSS, and
+                            JavaScript skills, along with the concept of box models within CSS</p>
+                    </div>
+                    <div class="project_skills">
+                        <ul>
+                            <li class="project_skill">HTML</li>
+                            <li class="project_skill">CSS</li>
+                            <li class="project_skill">JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="website project_link">
+                        <a title="Gym Website" target="_blank" href="./resources/projects/gym_project/index.html">Web Page</a>
+                    </div>
+                </div>
+                <div class="project" id="restaurantWebsite">
+                    <div class="project_title">
+                        <h3>Restaurant Website</h3>
+                    </div>
+                    <div class="project_details">
+                        <p>Created a website for a fine dining restaurant to illustrate and deepen HTML and CSS
+                            knowledge, along with the concept of box models within CSS</p>
+                    </div>
+                    <div class="project_skills">
+                        <ul>
+                            <li class="project_skill">HTML</li>
+                            <li class="project_skill">CSS</li>
+                        </ul>
+                    </div>
+                    <div class="website project_link">
+                        <a title="Restaurant Website" target="_blank" href="./resources/projects/restaurant_project/index.html">Web Page</a>
+                    </div>
+                </div>
+                <div class="project" id="GDPAnalysis">
+                    <div class="project_title">
+                        <h3>Life Expectancy and GDP Analysis</h3>
+                    </div>
+                    <div class="project_details">
+                        <p>Analyzed a dataset containing life expectancy and GDP of 6 countries across the world with
+                            different circumstances</p>
+                    </div>
+                    <div class="project_skills">
+                        <ul>
+                            <li class="project_skill">Python</li>
+                            <li class="project_skill">Pandas</li>
+                            <li class="project_skill">Numpy</li>
+                            <li class="project_skill">Seaborn</li>
+                            <li class="project_skill">Matplotlib</li>
+                        </ul>
+                    </div>
+                    <div class="github project_link">
+                        <a title="Repo Link" target="_blank"
+                            href="https://github.com/112523chen/Life-Expectancy-and-GDP-Analysis">GitHub Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="s">
+
+        </div>
+        <div id="o">
+            <p>Design & Built by Alex Chen</p>
+        </div>
+        <div id="l">
+            <ul>
+                <li class="links"><a target="_blank" href="mailto:112623chen@gmail.com">Email</a></li>
+                <li class="links"><a target="_blank" href="https://github.com/112523chen">GitHub</a></li>
+                <li class="links"><a target="_blank"
+                        href="https://www.linkedin.com/in/alex-chen-112523chen/">LinkedIn</a></li>
+                <li class="links"><a target="_blank" href="./resources/docs/AlexChenResume.pdf">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="./resources/js/night.js"></script>
+<script src="/resources/js/up.js"></script>
+<script src="./resources/js/typeWriter.js"></script>
+<script src="./resources/js/courseworkChange.js"></script>
+
+</html>

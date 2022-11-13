@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Fitness - Sign Up</title>
+    <link rel="stylesheet" href="./resources/css/signup.css">
+</head>
+<body>
+    <div id="brand">
+        <a href="./"><img src="./resources/images/Core3.png" alt="logo"></a>
+    </div>
+    <div id="signup">
+        <h1>Sign up</h1>
+        <div id="form">
+            <form id="vaildation" action="http://www.WebsiteDevelopmentBook.com/FormEcho.php"  method="post" onsubmit="return CreateAccount()">
+                <p>Select Membership Type</p>
+                <div id="membership">
+                    <label for="PremiumSerivce">Premium</label>
+                    <input type="radio" name="Service" id="PremiumService" value="Premium" required>
+                    <label for="ProService">Pro</label>
+                    <input type="radio" name="Service" id="ProService" value="Pro" required>
+                    <label for="BasicService">Basic </label>
+                    <input type="radio" name="Service" id="BasicService" value="Basic" required>
+                </div>
+                <p>First Name</p>
+                <input type="text" name="FirstName" id="firstName" placeholder="Enter first name..." required>
+                <p>Last Name</p>
+                <input type="text" name="LastName" id="lastName" placeholder="Enter last name..." required>
+                <p>Phone Number</p>
+                <input type="text" name="PhoneNumber" id="phoneNumber" placeholder="Enter phone number..." required>
+                <p>Email</p>
+                <input type="text" name="Email" id="email" placeholder="Enter email..." required>
+                <p>Credit Card Info</p>
+                <input type="text" name="CardHolder" id="cardHolder" placeholder="Enter name of holder..." required>
+                <input type="text" name="CardNumber" id="cardNumber" placeholder="Enter card number..." required>
+                <input type="text" name="CardExpirationMonth" id="cardExpirationMonth" placeholder="Enter card expiration month..." required>
+                <input type="text" name="CardExpirationYear" id="cardExpirationYear" placeholder="Enter card expiration year..." required>
+                <input type="text" name="CardCode" id="cardCode" placeholder="Enter card security number..." required>
+
+                <input type="submit" value="Create Account">
+            </form>
+        </div>
+    </div>
+    <script src="./resources/js/selectMembership.js"></script>
+    <script src="./resources/js/accountValidation.js"></script>
+    <script src="./resources/js/switch_signup.js"></script>
+    <div id="legal">
+        <p>By click "Create Account" above, 
+            you agree acknowledge that you have read and understood, 
+            and agree to Core Fitness's <span><a href="#">Terms & Conditions</a></span> 
+            and <span><a href="#">Privacy Policy</a></span>.</p>
+    </div>
+</body>
+</html>
